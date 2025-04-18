@@ -38,6 +38,6 @@ public class Hamster extends Animal {
 
     @Override
     public String toString() {
-        return super.toString() + "\nBreed:\t" + breed + "\n\nThis is a Hamster!";
+        return super.toString() + "\nBreed:  " + breed + "\n\nThis is a Hamster!";
     }
 }

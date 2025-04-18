@@ -15,11 +15,11 @@ public class Animal {
     }
 
     public void speak() {
-        System.out.println("Animal is makinSg a sound...");
+        System.out.println("Animal is making a sound...");
     }
 
     @Override
     public String toString() {
-        return "My animal:\nName:\t" + name + "\nWeight:\t" + weight + " kg";
+        return "My animal:\nName:   " + name + "\nWeight: " + weight + " kg";
     }
 }
